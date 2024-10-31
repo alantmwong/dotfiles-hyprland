@@ -69,3 +69,10 @@ alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias res1='xrandr --output DisplayPort-0 --mode 2560x1440 --rate 120'
 alias res2='xrandr --output DisplayPort-0 --mode 1920x1080 --rate 120'
 alias setkb='setxkbmap de;echo "Keyboard set back to de."'
+
+# -----------------------------------------------------
+# Alan's Aliases
+# -----------------------------------------------------
+alias s-m='~/dotfiles/.config/hypr/scripts/.swap_monitors.sh'
+alias dc-usbc='~/dotfiles/.config/hypr/scripts/.monitor_setup.sh disconnected'
+alias c-usbc='~/dotfiles/.config/hypr/scripts/.monitor_setup.sh connected'

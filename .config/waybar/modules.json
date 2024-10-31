@@ -206,7 +206,7 @@
 
   // Clock
   "clock": {
-    "format": "{:%H:%M %a}",
+        "format": "{:%H:%M - %Od.%Om.%y}",
     "on-click": "ags -t calendar",
     "tooltip": false
   },
@@ -272,7 +272,7 @@
   "group/links": {
     "orientation": "horizontal",
     "modules": [
-      "custom/chatgpt",
+//      "custom/chatgpt",
       "custom/empty"      
     ]
   },

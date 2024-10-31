@@ -6,7 +6,7 @@ POSH=agnoster
 # -----------------------------------------------------
 # oh-myzsh themes: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # -----------------------------------------------------
-# ZSH_THEME=robbyrussell
+#ZSH_THEME=robbyrussell
 
 # -----------------------------------------------------
 # oh-myzsh plugins
@@ -16,9 +16,6 @@ plugins=(
     sudo
     web-search
     archlinux
-    zsh-autosuggestions
-    zsh-syntax-highlighting
-    fast-syntax-highlighting
     copyfile
     copybuffer
     dirhistory
@@ -44,4 +41,7 @@ setopt appendhistory
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
 
 # Shipped Theme
-# eval "$(oh-my-posh init zsh --config /usr/share/oh-my-posh/themes/agnoster.omp.json)"
+#eval "$(oh-my-posh init zsh --config /usr/share/oh-my-posh/themes/agnoster.omp.json)"
+#    #zsh-autosuggestions
+    #zsh-syntax-highlighting
+    #fast-syntax-highlighting
